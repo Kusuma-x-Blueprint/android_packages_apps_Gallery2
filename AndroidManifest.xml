@@ -61,7 +61,7 @@
             android:normalScreens="true" android:largeScreens="true"
             android:anyDensity="true" />
 
-    <application android:icon="@mipmap/ic_launcher" android:label="@string/app_name"
+    <application android:icon="@mipmap/ic_launcher" android:label="@string/simple_edit"
             android:name="com.android.gallery3d.app.GalleryAppImpl"
             android:logo="@mipmap/ic_launcher"
             android:hardwareAccelerated="true"
@@ -103,7 +103,7 @@
                 android:configChanges="keyboardHidden|orientation|screenSize"
                 android:exported="false"
                 android:enabled="false"
-                android:label="@string/app_name">
+                android:label="@string/simple_edit">
         </activity-alias>
 
         <!-- This activity acts as a trampoline to the new Camera activity
@@ -128,7 +128,7 @@
             android:configChanges="orientation|screenSize"
             android:exported="false"
             android:enabled="false"
-            android:label="@string/app_name">
+            android:label="@string/simple_edit">
         </activity>
         <service android:name="com.android.gallery3d.ingest.IngestService"
             android:exported="false"
